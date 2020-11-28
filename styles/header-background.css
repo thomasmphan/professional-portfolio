@@ -24,7 +24,7 @@
   list-style-type: none;
   background: rgba(255, 255, 255, 0.5);
   animation: animate 25s linear infinite;
-  bottom: -11%;
+  bottom: -12%;
 }
 
 /* Set the starting horizontal position, size, and animation properties for each circle */
