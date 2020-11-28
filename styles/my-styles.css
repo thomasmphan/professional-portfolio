@@ -1,6 +1,6 @@
 nav
 {
-  background-color: #616161;
+  background-color: #021d25;
   padding-left: 8vw;
 }
 
@@ -12,7 +12,12 @@ a
 
 footer
 {
-  background-color: blue;
+  background-color: #021d25;
+}
+
+footer p
+{
+  color: white;
 }
 
 #header-text
@@ -22,17 +27,17 @@ footer
   right: 50vw;
 }
 
-#about
+#about, #contact
 {
-  background-color: red;
+  background-color: white;
 }
 
 #projects
 {
-  background-color: purple;
+  background-color: rgb(216, 216, 216);
 }
 
-#contact
+#copyright-year
 {
-  background-color: orange;
+  color: rgb(0, 162, 255);
 }
