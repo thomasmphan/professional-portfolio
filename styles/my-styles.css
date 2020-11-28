@@ -1,0 +1,31 @@
+nav
+{
+  background-color: yellow;
+}
+
+footer
+{
+  background-color: blue;
+}
+
+#header-text
+{
+  color: white;
+  top: 50vh;
+  right: 50vw;
+}
+
+#about
+{
+  background-color: red;
+}
+
+#projects
+{
+  background-color: purple;
+}
+
+#contact
+{
+  background-color: orange;
+}
