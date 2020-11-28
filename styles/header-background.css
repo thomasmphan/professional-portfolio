@@ -1,11 +1,13 @@
+/* Set a gradient background and full viewport size for the header */
 .area
 {
   background: linear-gradient(to left, #232627, #313138, #232627);  
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin-bottom: 0;
 }
 
+/* Wrapper for the circle animation */
 .circles
 {
   top: 0;
@@ -15,6 +17,7 @@
   overflow: hidden;
 }
 
+/* Set the color and starting vertical position of the circles */
 .circles li
 {
   position: absolute;
@@ -24,6 +27,7 @@
   bottom: -11%;
 }
 
+/* Set the starting horizontal position, size, and animation properties for each circle */
 .circles li:nth-child(1)
 {
   left: 25%;
@@ -105,6 +109,7 @@
   animation-duration: 11s;
 }
 
+/* Determine how the circle will animate over time */
 @keyframes animate
 {
   0%

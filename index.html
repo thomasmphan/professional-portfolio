@@ -26,6 +26,7 @@
       <!-- Header background animation -->
       <figure class="area">
         <ul class="circles position-absolute">
+          <!-- Each <li> represents a circle -->
           <li></li>
           <li></li>
           <li></li>
@@ -42,10 +43,20 @@
       <!-- Header content -->
       <p id="header-text" class="position-absolute">Headshot<br>Thomas Phan</p>
     </header>
-    <nav>Navbar</nav>
-    <section id="about">About</section>
-    <section id="projects">Projects</section>
-    <section id="contact">Contact</section>
-    <footer>Footer</footer>
+    
+    <nav class="row stick-top">
+      <a class="nav-link" href="#">HOME</a>
+      <a class="nav-link" href="#about">ABOUT</a>
+      <a class="nav-link" href="#projects">PROJECTS</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </nav>
+
+    <section id="about" class="row">About</section>
+
+    <section id="projects" class="row">Projects</section>
+
+    <section id="contact" class="row">Contact</section>
+    
+    <footer class="row">Footer</footer>
   </body>
 </html>

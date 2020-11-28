@@ -1,6 +1,13 @@
 nav
 {
-  background-color: yellow;
+  background-color: #616161;
+  padding-left: 8vw;
+}
+
+a
+{
+  color: white;
+  margin-right: 1vw;
 }
 
 footer
