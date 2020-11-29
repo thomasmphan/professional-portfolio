@@ -20,11 +20,28 @@ footer h3
   color: white;
 }
 
-#header-text
+#header-content
 {
-  color: white;
-  top: 50vh;
-  right: 50vw;
+  width: 100%;
+  height: 100%;
+}
+
+#header-content img
+{
+  max-width: 30vw;
+  max-height: 30vw;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px double rgb(182, 182, 182);
+}
+
+#header-content h1
+{
+  color: rgb(100, 100, 100);
+  letter-spacing: 1vh;
+  font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+  font-size: 4vw;
 }
 
 #about, #contact
