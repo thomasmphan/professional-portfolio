@@ -42,7 +42,7 @@
       </figure>
 
       <!-- Header content -->
-      <p id="header-text" class="position-absolute">Headshot<br>Thomas Phan</p>
+      <h1 id="header-text" class="position-absolute">Headshot<br>Thomas Phan</h1>
     </header>
     
     <!-- Navigation bar -->
@@ -54,29 +54,38 @@
     </nav>
 
     <!-- About me -->
-    <section id="about" class="row">About</section>
+    <article id="about" class="row justify-content-center">
+      <section class="col-md-4">
+        <h2 class="text-center">About</h2>
+        <p class="text-justify">Welcome! Thomas Phan is a Software Engineer based in Washington. He graduated from the University of Central Florida with a B.S. in Computer Engineer, and has four years of coding experience in embedded applications while working at Lockheed Martin. Now, he is excitedly learning and honing his skills for his new role as a full-stack developer at Microsoft.</p>
+      </section>
+    </article>
 
     <!-- List of portfolio projects -->
-    <section id="projects" class="row">Projects</section>
+    <article id="projects" class="row justify-content-center">
+      <section class="col-md-4">
+        <h2 class="text-center">Projects</h2>
+      </section>
+    </article>
 
     <!-- Contact form -->
-    <section id="contact" class="row justify-content-center">
-      <div class="col-md-3">
-        <p class="text-center">Contact</p>
+    <article id="contact" class="row justify-content-center">
+      <section class="col-md-4">
+        <h2 class="text-center">Contact</h2>
         <form class="form-group text-center">
           <input class="form-control mb-1" type="text" placeholder="Name" id="contact-name">
           <input class="form-control mb-1" type="email" placeholder="Email" id="contact-email">
           <textarea class="form-control mb-1" placeholder="Message" rows="5" id="contact-msg"></textarea>
           <button class="btn btn-dark btn-lg" type="button" id="contact-btn" disabled>Submit</button>
         </form>
-      </div>
-    </section>
+      </section>
+    </article>
     
     <!-- Footer -->
     <footer class="row">
-      <p class="col text-center mb-0">
+      <h3 class="col text-center mb-1">
         Thomas Phan <span id="copyright-year">&#169;2020</span>
-      </p>
+      </h3>
     </footer>
   </body>
 </html>
